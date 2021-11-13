@@ -43,7 +43,7 @@ app.get("/newr", function (req, res) {
 
 app.get("/", (req, res) => {
   console.log("Hello World!");
-  res.send("Home");
+  res.send("HomePage");
 });
 
 app.listen(8080, () => console.log("SERVER RUNNING on 8080"));
