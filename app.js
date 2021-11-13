@@ -46,4 +46,4 @@ app.get("/", (req, res) => {
   res.send("Home Page ...");
 });
 
-app.listen(8080, () => console.log("SERVER RUNNING on 8080"));
+app.listen(env.process.PORT, () => console.log("SERVER RUNNING on 8080"));
