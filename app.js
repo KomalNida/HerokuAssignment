@@ -12,7 +12,7 @@ const newR = require("./router/newrouter");
 var cors = require("cors");
 
 // db connection
-
+var port = 5000;
 mongoose.connect(
   "mongodb://localhost:27017/webFarmcare",
   {
@@ -47,5 +47,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(process.env.PORT || 8080, () =>
-  console.log(`SERVER RUNNING on ${PORT}`)
+  console.log(`SERVER RUNNING on ${port}`)
 );
