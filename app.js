@@ -47,5 +47,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(process.env.PORT || 8080, () =>
-  console.log(`SERVER RUNNING on ${port}`)
+  console.log(`SERVER RUNNING on ${PORT}`)
 );
