@@ -12,7 +12,7 @@ const newR = require("./router/newrouter");
 var cors = require("cors");
 
 // db connection
-var port = 5000;
+var port = 8080;
 mongoose.connect(
   "mongodb://localhost:27017/webFarmcare",
   {
